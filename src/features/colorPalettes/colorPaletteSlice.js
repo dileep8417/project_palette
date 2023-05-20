@@ -18,7 +18,6 @@ const colorPaletteSlice = createSlice({
         createProject: (state, action) => {
             const projectTitle = sanitizeProjectTitle(action.payload.fieldValue);
             if (!isValidProjectTitle(state, projectTitle)) {
-                console.log(projectTitle)
                 return;
             }
             state.errMsg = '';
