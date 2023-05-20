@@ -1,4 +1,4 @@
-import { errorMsgs } from "../../utils/Constants";
+import { errorMsgs } from "../../utils/strings";
 
 export function isValidProjectTitle(state, projectTitle) {
     if (projectTitle === '') {

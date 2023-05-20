@@ -2,9 +2,9 @@ import { Fragment } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Message from './components/Message';
-import { introMsg } from './utils/constants';
 import PaletteContainer from './components/PaletteContainer';
 import Modals from './components/Modals';
+import { introMsg } from './utils/strings';
 
 function App() {
 
